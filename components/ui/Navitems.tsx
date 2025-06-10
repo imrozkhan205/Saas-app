@@ -17,7 +17,9 @@ const Navitems = () => {
         <Link href={href} key={label} className={cn(pathname === href && 'text-primary font-semibold')}>
           {label}
         </Link>
+        
       ))}
+      <p>Sign In </p>
     </nav>
   );
 };
