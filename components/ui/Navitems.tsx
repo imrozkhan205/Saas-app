@@ -19,7 +19,6 @@ const Navitems = () => {
         </Link>
         
       ))}
-      <p>Sign In </p>
     </nav>
   );
 };
